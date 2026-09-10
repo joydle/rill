@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 265" width="790" height="265" role="img" aria-labelledby="t d"><title id="t">The commit boundary</title><desc id="d">Four closed Markdown blocks left of commitIndex are frozen and reused; the open paragraph to its right is the dirty tail, the only region re-lexed on each delta.</desc>
+<text x="40" y="30" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0f1419">One delta of work</text>
+<rect x="40" y="74" width="90" height="46" rx="5" fill="#eef1f5" stroke="#5b6b7f" stroke-width="1"/>
+<rect x="40" y="74" width="2.5" height="46" rx="1.2" fill="#5b6b7f"/>
+<text x="52" y="101" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#46525f">heading</text>
+<rect x="136" y="74" width="144" height="46" rx="5" fill="#eef1f5" stroke="#5b6b7f" stroke-width="1"/>
+<rect x="136" y="74" width="2.5" height="46" rx="1.2" fill="#5b6b7f"/>
+<text x="148" y="101" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#46525f">paragraph</text>
+<rect x="286" y="74" width="114" height="46" rx="5" fill="#eef1f5" stroke="#5b6b7f" stroke-width="1"/>
+<rect x="286" y="74" width="2.5" height="46" rx="1.2" fill="#5b6b7f"/>
+<text x="298" y="101" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#46525f">code</text>
+<rect x="406" y="74" width="134" height="46" rx="5" fill="#eef1f5" stroke="#5b6b7f" stroke-width="1"/>
+<rect x="406" y="74" width="2.5" height="46" rx="1.2" fill="#5b6b7f"/>
+<text x="418" y="101" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#46525f">paragraph</text>
+<rect x="546" y="74" width="194" height="46" rx="5" fill="#fbeae3" stroke="#eb6834" stroke-width="1.5"/>
+<rect x="546" y="74" width="2.5" height="46" rx="1.2" fill="#eb6834"/>
+<text x="558" y="101" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#c9502a">paragraph (open)</text>
+<line x1="546" y1="60" x2="546" y2="150" stroke="#eb6834" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="553" y="65" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" font-weight="700" fill="#c9502a">commitIndex</text>
+<path d="M40 164 L40 171 L540 171 L540 164" fill="none" stroke="#5b6b7f" stroke-width="1.2"/>
+<text x="290.0" y="190" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#5b6b7f">reused &#183; never re-parsed</text>
+<path d="M546 164 L546 171 L740 171 L740 164" fill="none" stroke="#eb6834" stroke-width="1.4"/>
+<text x="643.0" y="190" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" font-weight="700" fill="#c9502a">O(tail) &#183; the only work</text>
+<line x1="40" y1="216" x2="740" y2="216" stroke="#b3bec9" stroke-width="1"/>
+<line x1="40" y1="212" x2="40" y2="220" stroke="#b3bec9" stroke-width="1"/>
+<text x="40" y="234" text-anchor="start" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#78848f">0</text>
+<line x1="546" y1="212" x2="546" y2="220" stroke="#b3bec9" stroke-width="1"/>
+<text x="546" y="234" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#78848f">commitIndex</text>
+<line x1="740" y1="212" x2="740" y2="220" stroke="#b3bec9" stroke-width="1"/>
+<text x="740" y="234" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#78848f">end of buffer</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 406" width="600" height="406" role="img" aria-labelledby="t d"><title id="t">Module layering</title><desc id="d">RillUI sits on top and is the only product that imports SwiftUI. Below it, a Foundation-only tier holds RillCore, RillMath and RillAnalytics. RillCore also depends on RillAnalytics.</desc>
+<defs><marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#b3bec9"/></marker></defs>
+<text x="74" y="30" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0f1419">Four layered products</text>
+<rect x="58" y="142" width="484" height="220" rx="9" fill="#f6f8fa" stroke="#d5dce4" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="74" y="52" width="452" height="56" rx="7" fill="#fbeae3" stroke="#eb6834" stroke-width="1.4"/>
+<text x="90" y="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#c9502a">RillUI</text>
+<text x="90" y="95" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#46525f">SwiftUI &#183; views, theming, math, syntax highlighting</text>
+<line x1="300.0" y1="108" x2="300.0" y2="136" stroke="#b3bec9" stroke-width="1.3" marker-end="url(#ah)"/>
+<text x="312.0" y="127" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#78848f">depends on</text>
+<rect x="74" y="182" width="452" height="50" rx="6" fill="#eef1f5" stroke="#5b6b7f" stroke-width="1"/>
+<text x="90" y="204" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" fill="#0f1419">RillCore</text>
+<text x="90" y="221" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#46525f">AST + incremental parser</text>
+<rect x="74" y="240" width="452" height="50" rx="6" fill="#eef1f5" stroke="#5b6b7f" stroke-width="1"/>
+<text x="90" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" fill="#0f1419">RillMath</text>
+<text x="90" y="279" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#46525f">LaTeX tokenizer + box layout</text>
+<rect x="74" y="298" width="452" height="50" rx="6" fill="#eef1f5" stroke="#5b6b7f" stroke-width="1"/>
+<text x="90" y="320" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" fill="#0f1419">RillAnalytics</text>
+<text x="90" y="337" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#46525f">metrics, protocol, sinks</text>
+<text x="72" y="166" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" font-weight="700" fill="#78848f">FOUNDATION ONLY &#183; NEVER IMPORTS SWIFTUI OR UIKIT</text>
+<text x="74" y="388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#78848f">RillCore depends on RillAnalytics, so RillCore alone still pulls it in.</text>
+</svg>

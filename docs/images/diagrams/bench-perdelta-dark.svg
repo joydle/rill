@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 424" width="770" height="424" role="img" aria-labelledby="t d"><title id="t">Per-delta parse time versus document size</title><desc id="d">On a log scale, Rill stays near 0.05 ms across the whole 64 KB stream while every full-reparse strategy climbs steadily, reaching 1 to 27 ms per delta at 64 KB.</desc>
+<text x="40" y="28" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#e6edf3">Cost of one delta, as the document grows</text>
+<g transform="translate(0,24)">
+<line x1="64" y1="350" x2="620" y2="350" stroke="#21262d" stroke-width="1"/>
+<line x1="64" y1="256.2" x2="620" y2="256.2" stroke="#21262d" stroke-width="1"/>
+<line x1="64" y1="162.5" x2="620" y2="162.5" stroke="#21262d" stroke-width="1"/>
+<line x1="64" y1="68.7" x2="620" y2="68.7" stroke="#21262d" stroke-width="1"/>
+<text x="56" y="353.5" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">0.01</text>
+<text x="56" y="259.7" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">0.1</text>
+<text x="56" y="166" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">1</text>
+<text x="56" y="72.2" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">10</text>
+<text x="18" y="205" transform="rotate(-90 18 205)" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">ms per delta (log)</text>
+<line x1="64" y1="46" x2="64" y2="350" stroke="#3d4753" stroke-width="1"/>
+<text x="64" y="368" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">8</text>
+<text x="143.43" y="368" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">16</text>
+<text x="222.86" y="368" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">24</text>
+<text x="302.29" y="368" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">32</text>
+<text x="381.71" y="368" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">40</text>
+<text x="461.14" y="368" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">48</text>
+<text x="540.57" y="368" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">56</text>
+<text x="620" y="368" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">64</text>
+<text x="342" y="388" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7d8590">accumulated document size (KB)</text>
+<polyline points="64,115.9 143.43,83.5 222.86,69.7 302.29,57.4 381.71,47.7 461.14,40.4 540.57,33.9 620,28.4" fill="none" stroke="#00a300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="628" y="31" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#00a300">AttributedString</text>
+<polyline points="64,152.5 143.43,122.3 222.86,106.7 302.29,93.3 381.71,86.0 461.14,78.1 540.57,72.9 620,68.1" fill="none" stroke="#d55181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="628" y="71" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#d55181">SwiftStreamingMd</text>
+<polyline points="64,179.1 143.43,152.9 222.86,136.1 302.29,125.2 381.71,114.8 461.14,108.7 540.57,102.3 620,97.6" fill="none" stroke="#c98500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="628" y="95" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#c98500">Rill full-reparse</text>
+<polyline points="64,197.0 143.43,168.8 222.86,152.6 302.29,140.8 381.71,131.9 461.14,123.5 540.57,117.7 620,112.3" fill="none" stroke="#199e70" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="628" y="115" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#199e70">swift-markdown</text>
+<polyline points="64,243.1 143.43,215.1 222.86,199.2 302.29,187.0 381.71,178.1 461.14,170.8 540.57,164.7 620,159.4" fill="none" stroke="#3987e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="628" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#3987e5">MarkdownUI</text>
+<polyline points="64,334.3 143.43,313.5 222.86,299.7 302.29,296.4 381.71,307.5 461.14,296.7 540.57,284.3 620,283.3" fill="none" stroke="#d95926" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="628" y="286" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700" fill="#d95926">Rill</text>
+<circle cx="620" cy="283.3" r="4" fill="#d95926" stroke="#0d1117" stroke-width="2"/>
+</g>
+</svg>

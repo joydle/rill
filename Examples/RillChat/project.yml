@@ -1,0 +1,30 @@
+name: RillChat
+options:
+  bundleIdPrefix: com.batuhansk
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+packages:
+  Rill:
+    path: "../.."
+targets:
+  RillChat:
+    type: application
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources:
+      - path: App
+      - path: Sources/RillChatKit
+    dependencies:
+      - package: Rill
+        product: RillUI
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.batuhansk.RillChat
+        GENERATE_INFOPLIST_FILE: "YES"
+        SWIFT_VERSION: "6.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+        INFOPLIST_KEY_UIStatusBarStyle: UIStatusBarStyleDefault

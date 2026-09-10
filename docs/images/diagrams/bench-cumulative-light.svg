@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 250" width="770" height="250" role="img" aria-labelledby="t d"><title id="t">Cumulative parse time for a 64 KB stream</title><desc id="d">Relative to Rill at 9.0 milliseconds: MarkdownUI 16 times, swift-markdown 49.2 times, SwiftStreamingMarkdown 150.6 times.</desc>
+<text x="30" y="28" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0f1419">Cumulative time for a 64 KB stream</text>
+<line x1="275.0" y1="46" x2="275.0" y2="188" stroke="#e4e9ef" stroke-width="1"/>
+<text x="275.0" y="206" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#78848f">40&#215;</text>
+<line x1="390.0" y1="46" x2="390.0" y2="188" stroke="#e4e9ef" stroke-width="1"/>
+<text x="390.0" y="206" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#78848f">80&#215;</text>
+<line x1="505.0" y1="46" x2="505.0" y2="188" stroke="#e4e9ef" stroke-width="1"/>
+<text x="505.0" y="206" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#78848f">120&#215;</text>
+<line x1="620.0" y1="46" x2="620.0" y2="188" stroke="#e4e9ef" stroke-width="1"/>
+<text x="620.0" y="206" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#78848f">160&#215;</text>
+<line x1="160" y1="46" x2="160" y2="188" stroke="#b3bec9" stroke-width="1"/>
+<text x="152" y="67" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#46525f">Rill</text>
+<rect x="160" y="56" width="4.0" height="14" rx="3" fill="#eb6834"/>
+<text x="174.0" y="67" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#c9502a">1&#215; &#183; 9.0 ms</text>
+<text x="152" y="101" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#46525f">MarkdownUI</text>
+<rect x="160" y="90" width="46.0" height="14" rx="3" fill="#2a78d6"/>
+<text x="216.0" y="101" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#46525f">16.0&#215; &#183; 144 ms</text>
+<text x="152" y="135" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#46525f">swift-markdown</text>
+<rect x="160" y="124" width="141.5" height="14" rx="3" fill="#1baf7a"/>
+<text x="311.5" y="135" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#46525f">49.2&#215; &#183; 443 ms</text>
+<text x="152" y="169" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#46525f">SwiftStreamingMd</text>
+<rect x="160" y="158" width="433.0" height="14" rx="3" fill="#e87ba4"/>
+<text x="603.0" y="169" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#46525f">150.6&#215; &#183; 1,357 ms</text>
+<text x="30" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#78848f">Rill&apos;s own full-reparse control (71.9&#215;) and AttributedString (385.2&#215;) are in RESULTS.md.</text>
+</svg>

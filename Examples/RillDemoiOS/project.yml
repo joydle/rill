@@ -1,0 +1,36 @@
+name: RillDemoiOS
+options:
+  bundleIdPrefix: com.batuhansk
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+packages:
+  Rill:
+    path: "../.."
+targets:
+  RillDemoiOS:
+    type: application
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources:
+      - path: App
+      - path: ../RillDemo/Sources/RillDemoKit
+        name: RillDemoKit
+    dependencies:
+      - package: Rill
+        product: RillUI
+      - package: Rill
+        product: RillCore
+      - package: Rill
+        product: RillAnalytics
+      - package: Rill
+        product: RillMath
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.batuhansk.RillDemoiOS
+        GENERATE_INFOPLIST_FILE: "YES"
+        SWIFT_VERSION: "6.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
